@@ -7,18 +7,18 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#b81e37",
+    "light": "#b81e37",
+    "dark": "#b81e37",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#572626",
+      "to": "#b81e37"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "https://discord.com/channels/1350297958037590061/1352155653258477629"
+      "name": "Email Us",
+      "url": "mailto:hi@tropicalsys.com"
     }
   ],
   "topbarCtaButton": {
@@ -30,8 +30,7 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "installation",
-        "faq"
+        "installation"
       ]
     },
     {
@@ -42,11 +41,41 @@
         "modules/reports",
         "modules/staff-mgmt"
       ]
+    },
+    {
+      "group": "Legal",
+      "pages": [
+        "legal/tos",
+        "legal/privacy",
+        "legal/exclusion",
+        "legal/data-removal"
+      ]
+    },
+    {
+      "group": "Miscellaneous",
+      "pages": [
+        "misc/faq",
+        "misc/changelog",
+        "misc/beta"
+      ]
+    }
+  ],
+  "topAnchor": {
+    "name": "Documentation",
+    "icon": "book-open"
+  },
+  "anchors": [
+    {
+      "name": "Status Page",
+      "color": {
+        "from": "#572626",
+        "to": "#b81e37"
+      },
+      "icon": "signal-bars",
+      "url": "https://example.com"
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "discord": "https://discord.gg/8XScx8MNfE"
   }
 }
